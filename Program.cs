@@ -186,5 +186,86 @@
 //         Console.WriteLine("Wrong input");
 // }
 
+// LISTE
+
+// List<int> ints = new List<int>();
+// ints.Add(12);
+// for (int i = 0; i < 20; i++)
+// {
+//     ints.Add(i);
+// }
+
+// var myNumbers = new List<int>();
+
+// var predifinedNumbers = new List<int>[1,2,3,4];
+
+// foreach (var item in ints)
+// {
+//     Console.WriteLine(item);
+// }
+
+// // var fruits = new List<string> {"Apple", "Orange"};
+// // List<string> fruits2 = new() {"Apple", "Orange"};
+// List<string> fruits3 = ["Apple", "Orange"];
+// Console.WriteLine("Type your favourite fruit");
+// string fruit = Console.ReadLine();
+
+// if(!string.IsNullOrEmpty(fruit)){
+//     fruits3.Add(fruit);
+// };
+
+// string[] defaultFruits = ["Kiwi", "Papaya"];
+// fruits3.Insert(0, "Pear");
+// fruits3.AddRange(defaultFruits);
+
+// fruits3.ForEach(ele => Console.WriteLine(ele));
+
+// if(fruits3.Contains("Mango")){
+//     Console.WriteLine("You love mangoes!");
+// }
+
+// List<int> numeri = new List<int> { 5, 7, 2, 8, 3 };
+
+// int max = numeri.Max();
+// Console.WriteLine(max);
+// int min = numeri.Min();
+// Console.WriteLine(min);
+
+// HashSet
+
+// var hobbies = new HashSet<string>();
+// hobbies.Add("Chess");
+// hobbies.Add("Guitar");
+// List<string> myList = ["Running", "Reading", "Watching tv", "Running"];
+// // myList.ForEach(Console.WriteLine);
+// var newHobbies = new HashSet<string>(myList);
+// hobbies.UnionWith(myList);
+// foreach (var hobby in newHobbies)
+// {
+//     Console.WriteLine(hobby);
+// }
+
+// HashSet<string> animals = new HashSet<string>() {
+//     "Cane", "Gatto", "Elefante", "Leone"
+// };
+// animals.Remove("Elefante");
+// Console.WriteLine("HashSet aggiornato:\n" + string.Join("\n", animals));
+
+// QUEUE
+
+// Queue<int> queue = new();
+// queue.Enqueue(1);
+// queue.Enqueue(2);
+// Console.WriteLine($"There are {queue.Count} elements, and the first is {queue.Peek()}");
+// int current = queue.Dequeue();
+// Console.WriteLine($"Element value {current}. There are {queue.Count} elements, and the first is {queue.Peek()}");
+// queue.Clear();
+// Console.WriteLine($"There are {queue.Count} elements");
+
+// var data = new[] {1,2,3,4,5};
+// // var queueElements = new Queue<int>(new []{1,2,3,4,5});
+// var queueElements = new Queue<int>(data);
+// Console.Clear();
+// Console.WriteLine($"There are {queueElements.Count} elements, and the first is {queueElements.Peek()}");
 
 

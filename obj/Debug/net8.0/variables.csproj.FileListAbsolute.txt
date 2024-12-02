@@ -12,3 +12,4 @@ C:\Users\Utente\Coding\personal-code\.net\variables\obj\Debug\net8.0\refint\vari
 C:\Users\Utente\Coding\personal-code\.net\variables\obj\Debug\net8.0\variables.pdb
 C:\Users\Utente\Coding\personal-code\.net\variables\obj\Debug\net8.0\variables.genruntimeconfig.cache
 C:\Users\Utente\Coding\personal-code\.net\variables\obj\Debug\net8.0\ref\variables.dll
+C:\Users\Utente\Coding\personal-code\.net\variables\obj\Debug\net8.0\variables.sourcelink.json
