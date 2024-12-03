@@ -251,7 +251,7 @@
 // animals.Remove("Elefante");
 // Console.WriteLine("HashSet aggiornato:\n" + string.Join("\n", animals));
 
-// QUEUE
+// QUEUE first-in first-out FIFO
 
 // Queue<int> queue = new();
 // queue.Enqueue(1);
@@ -269,3 +269,85 @@
 // Console.WriteLine($"There are {queueElements.Count} elements, and the first is {queueElements.Peek()}");
 
 
+// STACK last-in first-out LIFO
+
+// Stack<int> stack = new Stack<int>();
+// var stack2 = new Stack<int>();
+// Stack<int> stack3 = new ();
+// stack3.Push(1);
+// stack3.Push(2);
+// stack3.Push(3);
+// Console.WriteLine($"We have {stack3.Count} elements. Current value is {stack3.Peek()}");
+// int val = stack3.Pop();
+// Console.WriteLine($"Val value is {val}");
+// Console.WriteLine($"We have {stack3.Count} elements. Current value is {stack3.Peek()}");
+// stack3.Clear();
+// Console.WriteLine($"We have {stack3.Count} elements.");
+// stack3.Push(1);
+// stack3.Push(1);
+// stack3.Push(2);
+// stack3.Push(3);
+// stack3.Push(3);
+// foreach (var item in stack3)
+// {
+//     Console.Write(item + ",");
+// }
+// Console.WriteLine();
+// var distinctItems = stack3.Distinct();
+// foreach (var item in distinctItems)
+// {
+//     Console.Write(item + ",");
+// }
+
+// Stack<string> greetings = new();
+// greetings.Push("Ciao");
+// greetings.Push("Mondo");
+// greetings.Push("Come");
+// greetings.Push("Stai");
+// greetings.Pop();
+// Console.WriteLine("Stack aggiornato:\n" + string.Join("\n", greetings));
+
+// Dictionaries
+
+// Dictionary<string, double> fruits = new Dictionary<string, double>();
+// var fruits2 = new Dictionary<string, double>();
+// Dictionary<string, double> fruits3 = new ();
+
+// fruits.Add("Apple", 2.5);
+// fruits.Add("Bananas", 1.25);
+// fruits["Pear"] = 2.55;
+
+// double applePrice = fruits["Apple"];
+// Console.WriteLine($"The apple price is {applePrice}");
+// fruits.Remove("Bananas");
+// foreach (var item in fruits)
+// {
+//     Console.WriteLine($"The price for {item.Key} is {item.Value}");
+// }
+// foreach (var item in fruits.Keys)
+// {
+//     Console.WriteLine($"We have {item}");
+// }
+// foreach (var item in fruits.Values)
+// {
+//     Console.WriteLine($"The price is {item}");
+// }
+
+// if (fruits.ContainsKey("Bananas"))
+// {
+//     Console.WriteLine("We have bananas");
+// }
+// else
+// {
+//     Console.WriteLine("We don't have any bananas");
+// }
+
+// Dictionary<string, int> students = new ();
+// students.Add("Mario", 25);
+// students.Add("Luca", 22);
+// students.Add("Sara", 24);
+// students.Remove("Luca");
+// Console.WriteLine($"Studenti e le loro età:");
+// foreach(var student in students){
+//     Console.WriteLine(string.Join("\n", $"{student.Key}: {student.Value}"));
+// }
